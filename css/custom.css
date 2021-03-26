@@ -1,0 +1,58 @@
+.theme-color {
+color: #ABA349 !important;	
+}
+.bg-amarillo-jibda {
+    background: #DBD55D !important;
+ }
+ .bg-verde-jibda {
+    background: #ABA349 !important;
+ }
+ .bg-cafe-jibda {
+    background: #5C5B42 !important;
+ }
+
+ .color-amarillo-jibda {
+    color: #DBD55D !important;
+ }
+ .color-verde-jibda {
+    color: #ABA349 !important;
+ }
+ .color-cafe-jibda {
+    color: #5C5B42 !important;
+ }
+ 
+ .btn-jibda, a.brook-btn.bk-btn-green, button.brook-btn.bk-btn-green, input[type=submit], .slick-btn:hover {
+    padding: 0 36px;
+    height: 55px;
+	color:white;
+	font-weight:bold;
+    background: #DBD55D !important;
+	border: solid #DBD55D 1px !important;
+ }
+ 
+ .footer-direccion {
+     color:white; 
+     font-size: 14px;
+ }
+
+.info-contacto a, .info-contacto a:hover {
+color: #777;
+}
+
+.icon-solid-rounded:hover {
+	background: #DBD55D !important;
+}
+
+.icon-padding {
+	padding:28px;
+}
+.google-map {
+	margin-bottom:-15px;
+	border:0;
+}
+.header {
+	z-index:2 !important;
+}
+.grid-overlay {
+	z-index:-2 !important;
+}
