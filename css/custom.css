@@ -7,10 +7,10 @@ color: #ABA349 !important;
  .bg-verde-jibda {
     background: #ABA349 !important;
  }
- .bg-cafe-jibda {
+ .bg-cafe-jibda {
     background: #5C5B42 !important;
+    color:white;
  }
-
  .color-amarillo-jibda {
     color: #DBD55D !important;
  }
@@ -20,29 +20,27 @@ color: #ABA349 !important;
  .color-cafe-jibda {
     color: #5C5B42 !important;
  }
- 
  .btn-jibda, a.brook-btn.bk-btn-green, button.brook-btn.bk-btn-green, input[type=submit], .slick-btn:hover {
     padding: 0 36px;
     height: 55px;
-	color:white;
-	font-weight:bold;
+    color:white;
+    font-weight:bold;
     background: #DBD55D !important;
-	border: solid #DBD55D 1px !important;
+    border: solid #DBD55D 1px !important;
  }
- 
  .footer-direccion {
-     color:white; 
-     font-size: 14px;
+    color:white; 
+    font-size: 14px;
  }
-
 .info-contacto a, .info-contacto a:hover {
-color: #777;
+   color: #777;
 }
-
-.icon-solid-rounded:hover {
+.icon-solid-rounded:hover, {
 	background: #DBD55D !important;
 }
-
+.icon {
+	color: #ABA349 !important;
+}
 .icon-padding {
 	padding:28px;
 }
@@ -50,9 +48,23 @@ color: #777;
 	margin-bottom:-15px;
 	border:0;
 }
-.header {
-	z-index:2 !important;
+.single-svg-icon-box {
+	z-index:1 !important;
+	margin-bottom:28px;
 }
-.grid-overlay {
-	z-index:-2 !important;
+.btn-border {
+	border: solid rgb(231, 231, 231) 1px !important;
+}
+.custom-shadow {
+   text-shadow: 1px 2px 4px rgba(0,0,0,.5);
+}
+.subir-margin {
+   margin-top:-50px;
+}
+.extra-padding {
+   padding: 30px 0 !important;
+}
+.big-icon-title {
+   font-size: 26px;
+   color:#ABA349;
 }
